@@ -1,0 +1,27 @@
+.memo-nav {
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid $color-quartz;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 0 15px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
