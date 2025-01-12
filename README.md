@@ -45,15 +45,15 @@ We managed to avoid excessive increase in selector weight (example of error).</l
 </p>
 <h2 align="center">Safety, Desktop - 1440</h2>
 <p align="center">
-  <img src="assets/contacts/safety-desktop.png" alt="mobile-layout" width="600px" style="padding: 20px"/>
+  <img src="assets/safety/safety-desktop.png" alt="mobile-layout" width="600px" style="padding: 20px"/>
 </p>
 <h2 align="center">Safety, Tablet - 768</h2>
 <p align="center">
-  <img src="assets/contacts/safety-desktop.png" alt="mobile-layout" width="600px" style="padding: 20px"/>
+  <img src="assets/safety/safety-desktop.png" alt="mobile-layout" width="600px" style="padding: 20px"/>
 </p>
 <h2 align="center">Safety, Mobile - 375</h2>
 <p align="center">
-  <img src="assets/contacts/safety-mobile.png" alt="mobile-layout" width="380px" style="padding: 20px"/>
+  <img src="assets/safety/safety-mobile.png" alt="mobile-layout" width="380px" style="padding: 20px"/>
 </p>
 <h2 align="center">404, Desktop - 1440</h2>
 <p align="center">
