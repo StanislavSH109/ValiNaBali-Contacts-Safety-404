@@ -1,12 +1,22 @@
 .safety {
   margin: 0 0 50px;
 
+  @include vp-1439 {
+    padding: 0 10px 0;
+  }
+
   &__wrap {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 650px 290px;
     gap: 80px;
     margin: 0 0 60px;
+
+    @include vp-1439 {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
   }
 
   &__nav {
@@ -16,6 +26,10 @@
 
     .safety__btn {
       width: 100%;
+    }
+
+    @include vp-1439 {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -30,6 +44,11 @@
     font-weight: 600;
     line-height: 32px;
     margin: 0 0 20px;
+
+    @include vp-1439 {
+      font-size: 26px;
+      line-height: 30px;
+    }
   }
 
   &__text {
