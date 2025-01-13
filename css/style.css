@@ -1067,6 +1067,13 @@ a {
 .safety__nav .safety__btn {
   width: 100%;
 }
+@media (max-width: 767px) {
+  .safety__nav .safety__btn {
+    grid-column: 1/3;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 @media (max-width: 1439px) {
   .safety__nav {
     grid-template-columns: repeat(2, 1fr);
@@ -1096,10 +1103,22 @@ a {
     line-height: 30px;
   }
 }
+@media (max-width: 767px) {
+  .safety__title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
 .safety__text {
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 18px;
+}
+@media (max-width: 767px) {
+  .safety__text {
+    font-size: 13px;
+    line-height: 16px;
+  }
 }
 .safety__text--bold {
   font-weight: 600;
@@ -1110,6 +1129,12 @@ a {
   margin: 0 0 6px;
   font-weight: 600;
   line-height: 32px;
+}
+@media (max-width: 767px) {
+  .safety__title-cite {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 .safety__list {
   margin: 0;
@@ -1143,6 +1168,12 @@ a {
     margin: 0 0 10px;
   }
 }
+@media (max-width: 767px) {
+  .memo-nav__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 .memo-nav__list {
   margin: 0;
   padding: 0;
@@ -1159,6 +1190,12 @@ a {
 .memo-nav__link {
   font-size: 16px;
   line-height: 20px;
+}
+@media (max-width: 767px) {
+  .memo-nav__link {
+    font-size: 13px;
+    line-height: 16px;
+  }
 }
 
 .info-block {
@@ -1221,6 +1258,10 @@ a {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
+}
+.card-link__icon vp-767 {
+  width: 28px;
+  line-height: 36px;
 }
 .card-link__info {
   display: flex;
