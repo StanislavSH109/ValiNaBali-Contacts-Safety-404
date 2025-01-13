@@ -485,6 +485,11 @@ a {
     padding: 30px 10px 30px;
   }
 }
+@media (max-width: 767px) {
+  .footer {
+    padding: 40px 0 30px;
+  }
+}
 .footer__top {
   display: grid;
   grid-template-columns: 152px 1fr 155px;
@@ -500,9 +505,23 @@ a {
     margin: 0 0 40px;
   }
 }
+@media (max-width: 767px) {
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 20px;
+  }
+}
 .footer__logo-link svg {
   width: 152px;
   height: 44px;
+}
+@media (max-width: 767px) {
+  .footer__logo-link svg {
+    width: 112px;
+    height: 32px;
+  }
 }
 .footer__info {
   display: flex;
@@ -535,6 +554,16 @@ a {
     margin: 0 0 28px;
   }
 }
+@media (max-width: 767px) {
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 0 0 35px;
+  }
+}
 .footer__nav {
   display: flex;
   flex-direction: column;
@@ -551,6 +580,14 @@ a {
   line-height: 20px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .footer__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
 }
 .footer__nav-list {
   margin: 0;
@@ -594,6 +631,12 @@ a {
   height: 56px;
   flex-shrink: 0;
 }
+@media (max-width: 767px) {
+  .footer__payment-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
 .footer__apps-list {
   margin: 0;
   padding: 0;
@@ -606,6 +649,11 @@ a {
   .footer__apps-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .footer__apps-list {
+    gap: 5px 15px;
   }
 }
 .footer__apps-link {
@@ -636,6 +684,12 @@ a {
   height: 40px;
   flex-shrink: 0;
 }
+@media (max-width: 767px) {
+  .footer__language-icon {
+    width: 44px;
+    height: 32px;
+  }
+}
 .footer__language-name {
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
@@ -643,11 +697,22 @@ a {
   line-height: 20px;
   margin: 0;
 }
+@media (max-width: 767px) {
+  .footer__language-name {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 .footer__copyright {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
   line-height: 16px;
   margin: 0;
+}
+@media (max-width: 767px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
 }
 
 .btn {
@@ -750,6 +815,7 @@ a {
 @media (max-width: 767px) {
   .contacts {
     padding-top: 20px;
+    margin: 0;
   }
 }
 .contacts__title {
