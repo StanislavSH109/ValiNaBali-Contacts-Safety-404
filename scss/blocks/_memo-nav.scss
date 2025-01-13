@@ -12,6 +12,10 @@
     font-weight: 600;
     line-height: 24px;
     margin: 0 0 15px;
+    
+    @include vp-1439 {
+      margin: 0 0 10px;
+    }
   }
 
   &__list {

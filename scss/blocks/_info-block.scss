@@ -10,6 +10,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 0 0 10px;
+
+    @include vp-1439 {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   &__btn {
