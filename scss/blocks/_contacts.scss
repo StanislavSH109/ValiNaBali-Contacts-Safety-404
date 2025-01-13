@@ -113,6 +113,15 @@
     align-items: center;
     gap: 6px;
 
+    &:hover {
+      color: $color-deep-lilac;
+    }
+
+    &:focus {
+      color: $color-deep-lilac;
+      outline: none;
+    }
+
     @include vp-767 {
       font-size: 14px;
       line-height: 18px;

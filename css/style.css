@@ -922,6 +922,13 @@ a {
   align-items: center;
   gap: 6px;
 }
+.contacts__info-link:hover {
+  color: #9e5fc4;
+}
+.contacts__info-link:focus {
+  color: #9e5fc4;
+  outline: none;
+}
 @media (max-width: 767px) {
   .contacts__info-link {
     font-size: 14px;
