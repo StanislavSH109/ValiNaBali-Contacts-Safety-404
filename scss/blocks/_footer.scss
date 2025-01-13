@@ -2,6 +2,10 @@
   background-color: $color-black-russian;
   padding: 20px 0 31px;
 
+  @include vp-1439 {
+    padding: 30px 10px 30px;
+  }
+
   &__top {
     display: grid;
     grid-template-columns: 152px 1fr 155px;
@@ -10,6 +14,11 @@
     border-bottom: 1px solid $color-white-10;
     padding: 0 0 17px;
     margin: 0 0 30px;
+
+    @include vp-1439 {
+      border-bottom: none;
+      margin: 0 0 40px;
+    }
   }
 
   &__logo-link {
@@ -27,7 +36,7 @@
 
   &__info-tel {
     color: $color-white;
-    font-size: 24px;
+    font-size: 24px
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.02em;
@@ -46,12 +55,20 @@
     grid-template-columns: 195px 1fr 195px 160px;
     gap: 45px;
     margin: 0 0 10px;
+
+    @include vp-1439 {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &__nav {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @include vp-1439 {
+      display: none;
+    }
   }
 
   &__subtitle {
@@ -70,6 +87,10 @@
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
+
+    @include vp-1439 {
+      display: none;
+    }
   }
 
   &__nav-list--col-2 {
@@ -115,6 +136,11 @@
     display: flex;
     flex-direction: column;
     gap: 3px;
+
+    @include vp-1439 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &__apps-link {

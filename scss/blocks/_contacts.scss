@@ -2,12 +2,22 @@
   padding-top: 30px;
   margin: 0 0 80px;
 
+  @include vp-1439 {
+    margin: 0 0 58px;
+  }
+
   &__title {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.02em;
     margin: 0 0 30px;
+
+    @include vp-1439 {
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
+    }
   }
 
   &__wrap {
@@ -15,6 +25,15 @@
     grid-template-columns: 500px 1fr;
     gap: 130px;
     margin: 0 0 80px;
+
+    @include vp-1439 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin: 0 0 60px;
+    }
   }
 
   &__img {
@@ -26,6 +45,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px 30px;
+
+    @include vp-1439 {
+      max-width: 500px;
+      gap: 40px 40px;
+    }
   }
 
   &__info {
@@ -73,10 +97,18 @@
     justify-content: center;
     grid-column: span 2;
     gap: 30px;
+
+    @include vp-1439 {
+      gap: 40px;
+    }
   }
 
   &__btn {
     margin-top: auto;
+  }
+
+  &__map {
+    padding: 0 10px;
   }
 
   &__map-img {
