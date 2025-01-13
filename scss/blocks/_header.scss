@@ -6,20 +6,44 @@
     padding: 20px 10px;
   }
 
+  @include vp-767 {
+    padding: 8px 0;
+  }
+
   &__content {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+
+    @include vp-767 {
+      align-items: center;
+    }
   }
 
   &__logo-link {
     width: 140px;
     height: 40px;
+
+    @include vp-767 {
+      width: 112px;
+      height: 32px;
+    }
+  }
+
+  &__logo-icon {
+    @include vp-767 {
+      width: 112px;
+      height: 32px;
+    }
   }
 
   &__btn-wrapper {
     display: flex;
     gap: 20px;
+
+    @include vp-767 {
+      gap: 10px;
+    }
   }
 
   &__burger,
@@ -41,11 +65,20 @@
     height: 20px;
     fill: $color-white;
     color: $color-nero;
+
+    @include vp-767 {
+      width: 19px;
+      height: 19px;
+    }
   }
 
   &__burger-icon {
     width: 36px;
     height: 14px;
     color: $color-white;
+
+    @include vp-767 {
+      width: 32px;
+    }
   }
 }

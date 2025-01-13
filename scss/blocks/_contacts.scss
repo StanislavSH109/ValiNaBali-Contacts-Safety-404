@@ -6,6 +6,10 @@
     margin: 0 0 58px;
   }
 
+  @include vp-767 {
+    padding-top: 20px;
+  }
+
   &__title {
     font-size: 36px;
     font-weight: 700;
@@ -17,6 +21,12 @@
       font-size: 32px;
       line-height: 36px;
       text-align: center;
+    }
+
+    @include vp-767 {
+      font-size: 28px;
+      line-height: 32px;
+      margin: 0 0 20px;
     }
   }
 
@@ -34,11 +44,20 @@
       gap: 40px;
       margin: 0 0 60px;
     }
+
+    @include vp-767 {
+      gap: 30px;
+      margin: 0 0 40px;
+    }
   }
 
   &__img {
     width: 500px;
     height: 350px;
+    
+    @include vp-767 {
+      height: 235px;
+    }
   }
 
   &__wrap-info {
@@ -50,12 +69,25 @@
       max-width: 500px;
       gap: 40px 40px;
     }
+
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
   }
 
   &__info {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    @include vp-767 {
+      text-align: center;
+      gap: 5px;
+    }
   }
 
   &__info-title {
@@ -65,6 +97,10 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     margin: 0;
+
+    @include vp-767 {
+      font-size: 12px;
+    }
   }
 
   &__info-link {
@@ -75,6 +111,11 @@
     display: flex;
     align-items: center;
     gap: 6px;
+
+    @include vp-767 {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 
   &__info-icon {
@@ -89,6 +130,11 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+
+    @include vp-767 {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 
   &__btn-wrap {
@@ -101,6 +147,11 @@
     @include vp-1439 {
       gap: 40px;
     }
+
+    @include vp-767 {
+      flex-wrap: nowrap;
+      gap: 15px;
+    }
   }
 
   &__btn {
@@ -108,7 +159,15 @@
   }
 
   &__map {
-    padding: 0 10px;
+    @include vp-1439 {
+      padding: 0 10px;
+    }
+
+    @include vp-767 {
+      padding: unset;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+    }
   }
 
   &__map-img {

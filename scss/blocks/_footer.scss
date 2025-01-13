@@ -36,7 +36,7 @@
 
   &__info-tel {
     color: $color-white;
-    font-size: 24px
+    font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.02em;
@@ -58,6 +58,7 @@
 
     @include vp-1439 {
       grid-template-columns: repeat(2, 1fr);
+      margin: 0 0 28px;
     }
   }
 
@@ -156,6 +157,10 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 20px;
+
+    @include vp-1439 {
+      align-items: center;
+    }
   }
 
   &__language-link {
