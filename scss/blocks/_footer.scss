@@ -6,6 +6,13 @@
     padding: 30px 10px 30px;
   }
 
+  @include vp-767 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__top {
     display: grid;
     grid-template-columns: 152px 1fr 155px;
