@@ -57,6 +57,15 @@
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.02em;
+
+    &:hover {
+      color: $color-deep-lilac;
+    }
+
+    &:focus {
+      color: $color-deep-lilac;
+      outline: none;
+    }
   }
 
   &__info-description {
@@ -138,6 +147,15 @@
     font-weight: 500;
     line-height: 20px;
     margin: 0;
+
+    &:hover {
+      color: $color-white;
+    }
+
+    &:focus {
+      color: $color-white;
+      outline: none;
+    }
   }
 
   &__payment {
@@ -228,6 +246,10 @@
     font-weight: 500;
     line-height: 20px;
     margin: 0;
+
+    &:hover {
+      color: $color-white;
+    }
 
     @include vp-767 {
       font-size: 12px;

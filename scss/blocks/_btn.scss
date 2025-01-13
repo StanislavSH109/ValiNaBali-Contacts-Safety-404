@@ -13,6 +13,14 @@
   line-height: 18px;
   cursor: pointer;
 
+  &:hover {
+    background-color: $color-white-lilac-2;
+  }
+
+  &:focus {
+    background-color: $color-white-lilac-2;
+    outline: none;
+  }
   @include vp-767 {
     width: 160px;
     height: 44px;
@@ -24,5 +32,14 @@
     background-color: $color-deep-lilac;
     border: none;
     color: $color-white;
+
+    &:hover {
+      background-color: $color-deep-lilac-2;
+    }
+
+    &:focus {
+      background-color: $color-deep-lilac-2;
+      outline: none;
+    }
   }
 }
