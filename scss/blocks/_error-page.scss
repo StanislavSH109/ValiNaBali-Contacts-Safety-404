@@ -1,0 +1,96 @@
+.error-page {
+    &__wrapper {
+        position: relative;
+        @include flex;
+        height: 85vh;
+
+        @include vp-1439 {
+            height: 99vh;
+        }
+
+        @include vp-767 {
+            height: 66vh;
+        }
+    }
+
+    &__block {
+        @include flex;
+        gap: 20px;
+        max-width: 420px;
+        text-align: center;
+
+        @include vp-767 {
+            gap: 10px;
+        }
+    }
+
+    &__title {
+        font-size: 140px;
+        line-height: 120px;
+        letter-spacing: -0.05em;
+        color: $color-deep-lilac;
+        font-weight: 600;
+        margin: 0;
+
+        @include vp-1439 {
+            font-size: 120px;
+            line-height: 100px;
+        }
+
+        @include vp-767 {
+            font-size: 80px;
+            line-height: 70px;
+        }
+    }
+
+    &__message {
+        color: $color-deep-lilac;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        margin: 0;
+
+        @include vp-1439 {
+            font-size: 32px;
+            line-height: 36px;
+        }
+
+        @include vp-767 {
+            font-size: 22px;
+            line-height: 24px;
+            letter-spacing: unset;
+        }
+    }
+
+    &__description {
+        margin: 0 0 40px;
+
+        @include vp-767 {
+            font-size: 13px;
+            line-height: 16px;
+            margin: 0 0 20px;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        width: 430px;
+        height: 430px;
+        z-index: -1;
+        top: 0;
+        transform: translateY(72%);
+
+        @include vp-1439 {
+            width: 330px;
+            height: 330px;
+            transform: translate(5%, 125%);
+        }
+
+        @include vp-767 {
+            width: 290px;
+            height: 290px;
+            transform: translate(8%, 120%);
+        }
+    }
+}
