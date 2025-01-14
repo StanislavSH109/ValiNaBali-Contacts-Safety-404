@@ -8,6 +8,7 @@
 
   @include vp-767 {
     padding: 0;
+    margin: 0 0 18px;
   }
 
   &__wrap {
@@ -25,6 +26,7 @@
 
     @include vp-767 {
       gap: 30px;
+      margin: 0 0 40px;
     }
   }
 
