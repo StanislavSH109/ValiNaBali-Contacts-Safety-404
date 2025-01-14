@@ -28,6 +28,11 @@
     font-size: 16px;
     line-height: 20px;
     margin: 0;
+
+    @include vp-767 {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 
   &__text {
@@ -35,5 +40,9 @@
     font-size: 13px;
     line-height: 16px;
     margin: 0;
+
+    @include vp-767 {
+      font-size: 12px;
+    }
   }
 }
