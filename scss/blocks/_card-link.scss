@@ -7,6 +7,19 @@
   gap: 8px;
   cursor: pointer;
 
+  &:hover {
+    background-color: $color-white-lilac;
+    border-radius: 20px;
+  }
+
+  &:focus {
+    background-color: $color-white-lilac;
+    border-radius: 20px;
+    outline: none;
+  }
+
+
+
   @include vp-767 {
     padding: 15px 15px;
     align-items: start;

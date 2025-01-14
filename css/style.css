@@ -1250,6 +1250,13 @@ a {
   font-size: 16px;
   line-height: 20px;
 }
+.memo-nav__link:hover {
+  color: #9e5fc4;
+}
+.memo-nav__link:focus {
+  color: #9e5fc4;
+  outline: none;
+}
 @media (max-width: 767px) {
   .memo-nav__link {
     font-size: 13px;
@@ -1335,6 +1342,15 @@ a {
   grid-template-columns: 46px 1fr;
   gap: 8px;
   cursor: pointer;
+}
+.card-link:hover {
+  background-color: #f2e5fa;
+  border-radius: 20px;
+}
+.card-link:focus {
+  background-color: #f2e5fa;
+  border-radius: 20px;
+  outline: none;
 }
 @media (max-width: 767px) {
   .card-link {

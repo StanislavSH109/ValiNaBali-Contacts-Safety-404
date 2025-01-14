@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Страница не найдена</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <a class="header__logo-link" href="#" aria-label="Ссылка на главную страницу">
+              <svg class="header__logo-icon" width="140" height="40">
+                <use xlink:href="images/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <div class="header__btn-wrapper">
+              <a class="header__favorites" href="#" aria-label="Ссылка на страницу избранное">
+                <svg class="header__favorites-icon" width="22" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-favorites"></use>
+                </svg>
+              </a>
+              <button class="header__burger" type="button" aria-label="Кнопка открытия меню">
+                <svg class="header__burger-icon" width="36" height="14" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-burger"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section class="error-page">
+        <div class="container">
+          <div class="error-page__wrapper">
+              <h1 class="error-page__title">404</h1>
+              <div class="error-page__message">Страница не найдена</div>
+              <div class="error-page__description">Данная страница была удалена или не существовала,
+                но вы всегда можете посмотреть горящие туры и сделать свой отдых незабываемым</div>
+              <a class="error-page__tours-link" href="#">Горящие туры</a>
+          </div>
+          <svg class="error-page__icon">
+            <use xlink:href="images/sprite.svg#icon-error"></use>
+          </svg>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
