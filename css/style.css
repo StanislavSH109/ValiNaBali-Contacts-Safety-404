@@ -1409,7 +1409,7 @@ a {
 }
 @media (max-width: 1439px) {
   .error-page__wrapper {
-    height: 99vh;
+    height: 79vh;
   }
 }
 @media (max-width: 767px) {
