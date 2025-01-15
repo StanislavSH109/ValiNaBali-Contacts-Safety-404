@@ -1405,7 +1405,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 61vh;
 }
 @media (max-width: 1439px) {
   .error-page__wrapper {
@@ -1487,8 +1487,8 @@ a {
   width: 430px;
   height: 430px;
   z-index: -1;
-  top: 0;
-  transform: translateY(72%);
+  bottom: 0;
+  transform: translateY(-50%);
 }
 @media (max-width: 1439px) {
   .error-page__icon {
