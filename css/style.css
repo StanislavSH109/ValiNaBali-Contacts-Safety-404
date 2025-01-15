@@ -1409,7 +1409,7 @@ a {
 }
 @media (max-width: 1439px) {
   .error-page__wrapper {
-    height: 79vh;
+    height: 91vh;
   }
 }
 @media (max-width: 767px) {
@@ -1494,7 +1494,7 @@ a {
   .error-page__icon {
     width: 330px;
     height: 330px;
-    transform: translate(5%, 125%);
+    transform: translate(3%, 32%);
   }
 }
 @media (max-width: 767px) {
