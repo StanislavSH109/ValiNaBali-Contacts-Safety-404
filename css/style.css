@@ -1414,7 +1414,7 @@ a {
 }
 @media (max-width: 767px) {
   .error-page__wrapper {
-    height: 66vh;
+    height: 61vh;
   }
 }
 .error-page__block {
@@ -1501,6 +1501,6 @@ a {
   .error-page__icon {
     width: 290px;
     height: 290px;
-    transform: translate(8%, 120%);
+    transform: translate(8%, 2%);
   }
 }/*# sourceMappingURL=style.css.map */
