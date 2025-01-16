@@ -1405,7 +1405,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 61vh;
+  min-height: calc(100vh - 80px);
 }
 @media (max-width: 1439px) {
   .error-page__wrapper {
@@ -1488,19 +1488,17 @@ a {
   height: 430px;
   z-index: -1;
   bottom: 0;
-  transform: translateY(-50%);
+  left: 0;
 }
 @media (max-width: 1439px) {
   .error-page__icon {
     width: 330px;
     height: 330px;
-    transform: translate(3%, 32%);
   }
 }
 @media (max-width: 767px) {
   .error-page__icon {
     width: 290px;
     height: 290px;
-    transform: translate(8%, 2%);
   }
 }/*# sourceMappingURL=style.css.map */
