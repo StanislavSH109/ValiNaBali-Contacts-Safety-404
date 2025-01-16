@@ -1407,15 +1407,11 @@ a {
   align-items: center;
   min-height: calc(100vh - 80px);
 }
-@media (max-width: 1439px) {
-  .error-page__wrapper {
-    height: 91vh;
-  }
-}
-@media (max-width: 767px) {
-  .error-page__wrapper {
-    height: 61vh;
-  }
+.error-page__elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .error-page__block {
   display: flex;
@@ -1437,7 +1433,7 @@ a {
   letter-spacing: -0.05em;
   color: #9e5fc4;
   font-weight: 600;
-  margin: 0;
+  margin: -80px 0 0 0;
 }
 @media (max-width: 1439px) {
   .error-page__title {
